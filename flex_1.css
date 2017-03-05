@@ -2,12 +2,13 @@ body{
     background: white;
 }
 .relative{
+
+    flex-flow: row wrap;
     width:800px;
     height: 50%;
     font-weight: bold;
     text-align: center;
     color: black;
-    flex-flow: column wrap;
     align-items: stretch;
     margin:auto;
     /*vertical-align: middle;*/
@@ -20,6 +21,7 @@ body{
     font-size: 14px;
     height:25px;
     padding-top: 6px;
+
 }
 .row{
  display:flex;
@@ -55,6 +57,7 @@ body{
     height:25px;
     text-align: center;
     padding-top: 6px;
+
 }
 /*button{
     height: 50px;
