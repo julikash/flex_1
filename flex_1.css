@@ -2,12 +2,13 @@ body{
     background: white;
 }
 .relative{
-
+    bg-color:red;
     flex-flow: row wrap;
     width:800px;
     height: 50%;
     font-weight: bold;
     text-align: center;
+    text-shadow: 1px 0 4px #fc0;
     color: black;
     align-items: stretch;
     margin:auto;
@@ -52,8 +53,7 @@ body{
 
 }
 .footer{
-    background: greenyellow;
-    clear:both;
+
     height:25px;
     text-align: center;
     padding-top: 6px;
@@ -84,3 +84,22 @@ body{
 body {
     padding: 2em;
 }
+
+ body {
+     font-size: 24px;
+ }
+p {
+    font-size: 100%;
+}
+span {
+    font-size: 1.5em
+}
+.block{
+    height: 100px;
+    width: 100px;
+    color:red;
+    border: 5px solid currentColor;
+    box-shadow: 0 0 5px currentColor;
+    color: orange;
+}
+
